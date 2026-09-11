@@ -1,0 +1,10 @@
+log_parsing/
+├── log3p/
+│   ├── __init__.py
+│   ├── config.py                # 配置文件
+│   ├── data_processor.py        # 数据处理模块
+│   ├── virtual_embedding.py     # 虚拟标签嵌入模块
+│   ├── train.py                 # 训练模块
+│   ├── evaluate.py              # 评估模块
+│   ├── utils.py                 # 工具函数
+│   └── main.py                  # 主程序入口

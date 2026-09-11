@@ -1,0 +1,21 @@
+log_anomaly_prediction/
+│
+├── config.py                # 配置参数
+├── data/
+│   ├── __init__.py
+│   ├── data_loader.py       # 数据加载和预处理
+│   └── dataset.py           # 数据集类定义
+│
+├── models/
+│   ├── __init__.py
+│   ├── layers.py            # 自定义层（如ProjectionLayer）
+│   └── lstm_attention.py    # LSTM+Attention模型
+│
+├── utils/
+│   ├── __init__.py
+│   ├── losses.py            # 自定义损失函数
+│   └── metrics.py           # 评估指标计算
+│
+├── train.py                 # 训练逻辑
+├── evaluate.py              # 评估逻辑
+└── main.py                  # 主程序入口
